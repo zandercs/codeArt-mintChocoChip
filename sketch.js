@@ -140,7 +140,7 @@ function generateRectangles() {
       alpha: 0,
       alpha2: 0,
       time: random(TWO_PI),  // Initialize with a random starting time
-      timeIncrement: random(0.0001, 0.02), //random(0.001, 0.03)  // Randomize the time increment
+      timeIncrement: random(0.0001, 0.01), //random(0.001, 0.03)  // Randomize the time increment
       startJitter: jitter,
       jitter: jitter
     };
